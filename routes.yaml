@@ -1,0 +1,6 @@
+routes:
+  - host: dotfiles.lvh.me
+    target: http://localhost:5174
+
+  - host: settings.lvh.me
+    target: http://localhost:5173
