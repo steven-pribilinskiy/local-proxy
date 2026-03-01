@@ -6,6 +6,4 @@ passthrough:
   - domain: cloudbeds-local.com
     target: traefik
 
-routes:
-  - host: linux-settings.lvh.me
-    target: 5174
+routes: []
