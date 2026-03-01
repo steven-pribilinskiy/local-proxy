@@ -1,7 +1,11 @@
+# Target formats:
+#   port-only (5174)    — resolves to localhost or host.docker.internal automatically
+#   full URL            — http://192.168.1.50:3000, used as-is
+
 passthrough:
   - domain: cloudbeds-local.com
     target: traefik
 
 routes:
   - host: linux-settings.lvh.me
-    target: http://localhost:5174
+    target: 5174
