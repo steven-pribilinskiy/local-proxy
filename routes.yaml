@@ -1,6 +1,7 @@
-routes:
-  - host: dotfiles.lvh.me
-    target: http://localhost:5174
+passthrough:
+  - domain: cloudbeds-local.com
+    target: traefik
 
-  - host: settings.lvh.me
-    target: http://localhost:5173
+routes:
+  - host: linux-settings.lvh.me
+    target: http://localhost:5174
