@@ -3,7 +3,7 @@
 #   full URL            — http://192.168.1.50:3000, used as-is
 
 passthrough:
-  - domain: cloudbeds-local.com
+  - domain: example-local.com
     target: traefik
 
 routes: []
